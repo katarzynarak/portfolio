@@ -1,0 +1,79 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(210 50% 75%);
+    color: hsl(230 90% 20%);
+    font-weight: 800;
+  }
+  #navbar {
+     width: 100%;
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: hsl(210 50% 75%);
+     font-size: 20px;
+     font-weight: 800;
+     text-transform: uppercase;
+   }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+   }
+  li {
+    list-style: none;
+  }
+  a {
+    color: hsl(230 90% 20%);
+    text-decoration: none;
+  }
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(210 50% 25%);
+    color: hsl(50 80% 50%);
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 5px;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .welcome {
+    font-size: 30px;
+  }
+  .header {
+    text-align: center;
+   }
+  #projects-link {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .project {
+    height: 100px;
+    width: 250px;
+    background-color: hsl(50 60% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  @media (max-width: 800px) {
+    .project {
+      height: 75px;
+      width: 100px;
+    }
+  }
+  .contact_links {
+    display: flex;
+    justify-content: space-evenly;
+   }
+  .contact-description {
+    margin-left: 10px;
+  }
